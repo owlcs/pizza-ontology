@@ -9,6 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl">
         <owl:versionInfo xml:lang="en">v.1.5. Removed protege.owl import and references. Made ontology URI date-independent</owl:versionInfo>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pizza</rdfs:label>
         <rdfs:comment xml:lang="en">An example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://www.co-ode.org/resources/tutorials/)</rdfs:comment>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
         <owl:versionInfo xml:lang="en">v.1.4. Added Food class (used in domain/range of hasIngredient), Added several hasCountryOfOrigin restrictions on pizzas, Made hasTopping invers functional</owl:versionInfo>
