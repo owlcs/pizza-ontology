@@ -13,6 +13,7 @@
         <dc:description xml:lang="en">An ontology about pizzas and their toppings.
 
 This is an example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://www.co-ode.org/resources/tutorials/).</dc:description>
+        <dc:title xml:lang="en">pizza</dc:title>
         <owl:versionInfo xml:lang="en">v.1.5. Removed protege.owl import and references. Made ontology URI date-independent</owl:versionInfo>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 3.0 (CC BY 3.0)</terms:license>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pizza</rdfs:label>
@@ -36,6 +37,12 @@ This is an example ontology that contains all constructs required for the variou
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
