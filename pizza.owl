@@ -15,6 +15,7 @@
 
 This is an example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://www.co-ode.org/resources/tutorials/).</dc:description>
         <dc:title xml:lang="en">pizza</dc:title>
+        <terms:contributor>Nick Drummond</terms:contributor>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 3.0 (CC BY 3.0)</terms:license>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pizza</rdfs:label>
         <terms:provenance xml:lang="en">v2.0 Added new annotations to the ontology using standard/well-know annotation properties
@@ -23,6 +24,10 @@ v1.5. Removed protege.owl import and references. Made ontology URI date-independ
 
 v1.4. Added Food class (used in domain/range of hasIngredient), Added several hasCountryOfOrigin restrictions on pizzas, Made hasTopping invers functional</terms:provenance>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
+        <terms:contributor>Alan Rector</terms:contributor>
+        <terms:contributor>Matthew Horridge</terms:contributor>
+        <terms:contributor>Chris Wroe</terms:contributor>
+        <terms:contributor>Robert Stevens</terms:contributor>
     </owl:Ontology>
     
 
@@ -47,6 +52,12 @@ v1.4. Added Food class (used in domain/range of hasIngredient), Added several ha
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 
