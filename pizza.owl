@@ -9,7 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl">
+    <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/pizza">
         <dc:description xml:lang="en">An ontology about pizzas and their toppings.
 
 This is an example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://www.co-ode.org/resources/tutorials/).</dc:description>
