@@ -3,7 +3,6 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY pizza "http://www.co-ode.org/ontologies/pizza/pizza.owl#" >
@@ -13,7 +12,6 @@
 <rdf:RDF xmlns="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
      xml:base="http://www.co-ode.org/ontologies/pizza/pizza.owl"
      xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
-     xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
