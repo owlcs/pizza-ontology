@@ -2,7 +2,6 @@
 
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
@@ -13,7 +12,6 @@
 
 <rdf:RDF xmlns="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
      xml:base="http://www.co-ode.org/ontologies/pizza/pizza.owl"
-     xmlns:owl11="http://www.w3.org/2006/12/owl11#"
      xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
      xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -29,10 +27,10 @@
         <owl:versionInfo xml:lang="en"
             >v.1.4. Added Food class (used in domain/range of hasIngredient), Added several hasCountryOfOrigin restrictions on pizzas, Made hasTopping invers functional</owl:versionInfo>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -40,7 +38,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#hasBase -->
@@ -53,13 +51,13 @@
         <rdfs:domain rdf:resource="#Pizza"/>
         <owl:inverseOf rdf:resource="#isBaseOf"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#hasCountryOfOrigin -->
 
     <owl:ObjectProperty rdf:about="#hasCountryOfOrigin"/>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#hasIngredient -->
@@ -72,7 +70,7 @@
         <rdfs:domain rdf:resource="#Food"/>
         <rdfs:range rdf:resource="#Food"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#hasSpiciness -->
@@ -83,7 +81,7 @@
         <rdfs:comment xml:lang="en"
             >A property created to be used with the ValuePartition - Spiciness.</rdfs:comment>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping -->
@@ -97,7 +95,7 @@
         <rdfs:range rdf:resource="#PizzaTopping"/>
         <owl:inverseOf rdf:resource="#isToppingOf"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#isBaseOf -->
@@ -109,7 +107,7 @@
         <rdfs:domain rdf:resource="#PizzaBase"/>
         <rdfs:subPropertyOf rdf:resource="#isIngredientOf"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#isIngredientOf -->
@@ -121,7 +119,7 @@
             >The inverse property tree to hasIngredient - all subproperties and attributes of the properties should reflect those under hasIngredient.</rdfs:comment>
         <rdfs:range rdf:resource="#Food"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#isToppingOf -->
@@ -134,10 +132,10 @@
         <rdfs:domain rdf:resource="#PizzaTopping"/>
         <rdfs:range rdf:resource="#Pizza"/>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -145,7 +143,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#American -->
@@ -194,7 +192,7 @@
         <owl:disjointWith rdf:resource="#QuattroFormaggi"/>
         <owl:disjointWith rdf:resource="#AmericanHot"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot -->
@@ -256,7 +254,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping -->
@@ -268,7 +266,7 @@
         <owl:disjointWith rdf:resource="#PrawnsTopping"/>
         <owl:disjointWith rdf:resource="#MixedSeafoodTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping -->
@@ -290,7 +288,7 @@
         <owl:disjointWith rdf:resource="#OnionTopping"/>
         <owl:disjointWith rdf:resource="#SpinachTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping -->
@@ -307,7 +305,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#PetitPoisTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun -->
@@ -391,7 +389,7 @@
         <owl:disjointWith rdf:resource="#FruttiDiMare"/>
         <owl:disjointWith rdf:resource="#LaReine"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping -->
@@ -407,7 +405,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf rdf:resource="#HerbSpiceTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping -->
@@ -434,7 +432,7 @@
         <owl:disjointWith rdf:resource="#RocketTopping"/>
         <owl:disjointWith rdf:resource="#OliveTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa -->
@@ -520,7 +518,7 @@
         <owl:disjointWith rdf:resource="#Siciliana"/>
         <owl:disjointWith rdf:resource="#PolloAdAstra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina -->
@@ -588,7 +586,7 @@
         <owl:disjointWith rdf:resource="#Giardiniera"/>
         <owl:disjointWith rdf:resource="#AmericanHot"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping -->
@@ -598,7 +596,7 @@
             >CoberturaDeQueijo</rdfs:label>
         <rdfs:subClassOf rdf:resource="#PizzaTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyPizza -->
@@ -619,7 +617,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza that has at least 1 cheese topping.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping -->
@@ -632,7 +630,7 @@
         <rdfs:comment xml:lang="en"
             >This class will be inconsistent. This is because we have given it 2 disjoint parents, which means it could never have any members (as nothing can simultaneously be a CheeseTopping and a VegetableTopping). NB Called ProbeInconsistentTopping in the ProtegeOWL Tutorial.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping -->
@@ -650,7 +648,7 @@
         <owl:disjointWith rdf:resource="#HamTopping"/>
         <owl:disjointWith rdf:resource="#HotSpicedBeefTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Country -->
@@ -676,7 +674,7 @@
         <rdfs:comment xml:lang="en"
             >A class that is equivalent to the set of individuals that are described in the enumeration - ie Countries can only be either America, England, France, Germany or Italy and nothing else. Note that these individuals have been asserted to be allDifferent from each other.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase -->
@@ -685,7 +683,7 @@
         <rdfs:label xml:lang="pt">BaseEspessa</rdfs:label>
         <rdfs:subClassOf rdf:resource="#PizzaBase"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept -->
@@ -693,7 +691,7 @@
     <owl:Class rdf:about="#DomainConcept">
         <owl:disjointWith rdf:resource="#ValuePartition"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina -->
@@ -769,7 +767,7 @@
         <owl:disjointWith rdf:resource="#American"/>
         <owl:disjointWith rdf:resource="#Siciliana"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping -->
@@ -786,7 +784,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#CheeseTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Food -->
@@ -794,7 +792,7 @@
     <owl:Class rdf:about="#Food">
         <rdfs:subClassOf rdf:resource="#DomainConcept"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping -->
@@ -810,7 +808,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf rdf:resource="#CheeseTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons -->
@@ -900,7 +898,7 @@
         <owl:disjointWith rdf:resource="#QuattroFormaggi"/>
         <owl:disjointWith rdf:resource="#Fiorentina"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping -->
@@ -914,7 +912,7 @@
         <owl:disjointWith rdf:resource="#FishTopping"/>
         <owl:disjointWith rdf:resource="#CheeseTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare -->
@@ -968,7 +966,7 @@
         <owl:disjointWith rdf:resource="#Giardiniera"/>
         <owl:disjointWith rdf:resource="#Veneziana"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping -->
@@ -995,7 +993,7 @@
         <owl:disjointWith rdf:resource="#PetitPoisTopping"/>
         <owl:disjointWith rdf:resource="#TomatoTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera -->
@@ -1075,7 +1073,7 @@
         <owl:disjointWith rdf:resource="#QuattroFormaggi"/>
         <owl:disjointWith rdf:resource="#AmericanHot"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping -->
@@ -1094,7 +1092,7 @@
         <owl:disjointWith rdf:resource="#GorgonzolaTopping"/>
         <owl:disjointWith rdf:resource="#FourCheesesTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping -->
@@ -1112,7 +1110,7 @@
         <owl:disjointWith rdf:resource="#ParmesanTopping"/>
         <owl:disjointWith rdf:resource="#FourCheesesTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping -->
@@ -1122,7 +1120,7 @@
             >CoberturaDePimentaoVerde</rdfs:label>
         <rdfs:subClassOf rdf:resource="#PepperTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping -->
@@ -1133,7 +1131,7 @@
         <rdfs:subClassOf rdf:resource="#MeatTopping"/>
         <owl:disjointWith rdf:resource="#HotSpicedBeefTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping -->
@@ -1146,7 +1144,7 @@
         <owl:disjointWith rdf:resource="#MeatTopping"/>
         <owl:disjointWith rdf:resource="#FishTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot -->
@@ -1155,7 +1153,7 @@
         <rdfs:label xml:lang="pt">Picante</rdfs:label>
         <rdfs:subClassOf rdf:resource="#Spiciness"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping -->
@@ -1171,7 +1169,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf rdf:resource="#GreenPepperTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping -->
@@ -1187,7 +1185,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream -->
@@ -1207,7 +1205,7 @@
         <rdfs:comment xml:lang="en"
             >A class to demonstrate mistakes made with setting a property domain. The property hasTopping has a domain of Pizza. This means that the reasoner can infer that all individuals using the hasTopping property must be of type Pizza. Because of the restriction on this class, all members of IceCream must use the hasTopping property, and therefore must also be members of Pizza. However, Pizza and IceCream are disjoint, so this causes an inconsistency. If they were not disjoint, IceCream would be inferred to be a subclass of Pizza.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#InterestingPizza -->
@@ -1229,7 +1227,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza that has at least 3 toppings. Note that this is a cardinality constraint on the hasTopping property and NOT a qualified cardinality constraint (QCR). A QCR would specify from which class the members in this relationship must be. eg has at least 3 toppings from PizzaTopping. This is currently not supported in OWL.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping -->
@@ -1248,7 +1246,7 @@
         <owl:disjointWith rdf:resource="#SweetPepperTopping"/>
         <owl:disjointWith rdf:resource="#PeperonataTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine -->
@@ -1318,7 +1316,7 @@
         <owl:disjointWith rdf:resource="#Margherita"/>
         <owl:disjointWith rdf:resource="#Napoletana"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping -->
@@ -1336,7 +1334,7 @@
         <owl:disjointWith rdf:resource="#PetitPoisTopping"/>
         <owl:disjointWith rdf:resource="#SpinachTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita -->
@@ -1378,7 +1376,7 @@
         <owl:disjointWith rdf:resource="#SloppyGiuseppe"/>
         <owl:disjointWith rdf:resource="#QuattroFormaggi"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping -->
@@ -1390,7 +1388,7 @@
         <owl:disjointWith rdf:resource="#CheeseTopping"/>
         <owl:disjointWith rdf:resource="#FishTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatyPizza -->
@@ -1411,7 +1409,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza that has at least one meat topping</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium -->
@@ -1422,7 +1420,7 @@
         <owl:disjointWith rdf:resource="#Hot"/>
         <owl:disjointWith rdf:resource="#Mild"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild -->
@@ -1432,7 +1430,7 @@
         <rdfs:subClassOf rdf:resource="#Spiciness"/>
         <owl:disjointWith rdf:resource="#Hot"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping -->
@@ -1442,7 +1440,7 @@
             >CoberturaDeFrutosDoMarMistos</rdfs:label>
         <rdfs:subClassOf rdf:resource="#FishTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping -->
@@ -1468,7 +1466,7 @@
         <owl:disjointWith rdf:resource="#GoatsCheeseTopping"/>
         <owl:disjointWith rdf:resource="#GorgonzolaTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom -->
@@ -1528,7 +1526,7 @@
         <owl:disjointWith rdf:resource="#Soho"/>
         <owl:disjointWith rdf:resource="#Napoletana"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping -->
@@ -1548,7 +1546,7 @@
         <owl:disjointWith rdf:resource="#AsparagusTopping"/>
         <owl:disjointWith rdf:resource="#PetitPoisTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza -->
@@ -1559,7 +1557,7 @@
         <rdfs:comment xml:lang="en"
             >A pizza that can be found on a pizza menu</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana -->
@@ -1629,7 +1627,7 @@
         <owl:disjointWith rdf:resource="#Giardiniera"/>
         <owl:disjointWith rdf:resource="#Siciliana"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#NonVegetarianPizza -->
@@ -1651,7 +1649,7 @@
         <rdfs:comment xml:lang="en"
             >Any Pizza that is not a VegetarianPizza</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping -->
@@ -1673,7 +1671,7 @@
         <owl:disjointWith rdf:resource="#CheeseTopping"/>
         <owl:disjointWith rdf:resource="#FishTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping -->
@@ -1697,7 +1695,7 @@
         <owl:disjointWith rdf:resource="#OnionTopping"/>
         <owl:disjointWith rdf:resource="#MushroomTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping -->
@@ -1718,7 +1716,7 @@
         <owl:disjointWith rdf:resource="#SpinachTopping"/>
         <owl:disjointWith rdf:resource="#LeekTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmaHamTopping -->
@@ -1734,7 +1732,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense -->
@@ -1805,7 +1803,7 @@
         <owl:disjointWith rdf:resource="#Fiorentina"/>
         <owl:disjointWith rdf:resource="#FruttiDiMare"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping -->
@@ -1822,7 +1820,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#FourCheesesTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping -->
@@ -1840,7 +1838,7 @@
         <owl:disjointWith rdf:resource="#SweetPepperTopping"/>
         <owl:disjointWith rdf:resource="#GreenPepperTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping -->
@@ -1859,7 +1857,7 @@
         <owl:disjointWith rdf:resource="#HotSpicedBeefTopping"/>
         <owl:disjointWith rdf:resource="#ChickenTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping -->
@@ -1879,7 +1877,7 @@
         <owl:disjointWith rdf:resource="#LeekTopping"/>
         <owl:disjointWith rdf:resource="#AsparagusTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping -->
@@ -1895,7 +1893,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels -->
@@ -1905,7 +1903,7 @@
             >CoberturaPineKernels</rdfs:label>
         <rdfs:subClassOf rdf:resource="#NutTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza -->
@@ -1921,7 +1919,7 @@
         <rdfs:subClassOf rdf:resource="#Food"/>
         <owl:disjointWith rdf:resource="#PizzaTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase -->
@@ -1932,7 +1930,7 @@
         <owl:disjointWith rdf:resource="#PizzaTopping"/>
         <owl:disjointWith rdf:resource="#Pizza"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping -->
@@ -1942,7 +1940,7 @@
             >CoberturaDaPizza</rdfs:label>
         <rdfs:subClassOf rdf:resource="#Food"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra -->
@@ -2021,7 +2019,7 @@
         <owl:disjointWith rdf:resource="#UnclosedPizza"/>
         <owl:disjointWith rdf:resource="#SloppyGiuseppe"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping -->
@@ -2032,7 +2030,7 @@
         <rdfs:subClassOf rdf:resource="#FishTopping"/>
         <owl:disjointWith rdf:resource="#MixedSeafoodTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo -->
@@ -2106,7 +2104,7 @@
         <owl:disjointWith rdf:resource="#Capricciosa"/>
         <owl:disjointWith rdf:resource="#Margherita"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi -->
@@ -2141,7 +2139,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#AmericanHot"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#RealItalianPizza -->
@@ -2169,7 +2167,7 @@
         <rdfs:comment xml:lang="en"
             >This defined class has conditions that are part of the definition: ie any Pizza that has the country of origin, Italy is a RealItalianPizza. It also has conditions that merely describe the members - that all RealItalianPizzas must only have ThinAndCrispy bases. In essence, all pizzas from Italy must have ThinAndCrispy bases.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping -->
@@ -2179,7 +2177,7 @@
             >CoberturaDeCebolaVermelha</rdfs:label>
         <rdfs:subClassOf rdf:resource="#OnionTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping -->
@@ -2203,7 +2201,7 @@
         <owl:disjointWith rdf:resource="#LeekTopping"/>
         <owl:disjointWith rdf:resource="#TomatoTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa -->
@@ -2247,7 +2245,7 @@
         <owl:disjointWith rdf:resource="#AmericanHot"/>
         <owl:disjointWith rdf:resource="#QuattroFormaggi"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping -->
@@ -2264,7 +2262,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#CajunSpiceTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping -->
@@ -2281,7 +2279,7 @@
         <owl:disjointWith rdf:resource="#FruitTopping"/>
         <owl:disjointWith rdf:resource="#VegetableTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana -->
@@ -2357,7 +2355,7 @@
         <owl:disjointWith rdf:resource="#QuattroFormaggi"/>
         <owl:disjointWith rdf:resource="#AmericanHot"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping -->
@@ -2374,7 +2372,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#SundriedTomatoTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe -->
@@ -2434,7 +2432,7 @@
         <owl:disjointWith rdf:resource="#Rosa"/>
         <owl:disjointWith rdf:resource="#American"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho -->
@@ -2507,7 +2505,7 @@
         <owl:disjointWith rdf:resource="#Rosa"/>
         <owl:disjointWith rdf:resource="#Siciliana"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness -->
@@ -2527,7 +2525,7 @@
         <rdfs:comment xml:lang="en"
             >A ValuePartition that describes only values from Hot, Medium or Mild. NB Subclasses can themselves be divided up into further partitions.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza -->
@@ -2548,7 +2546,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza that has a spicy topping is a SpicyPizza</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizzaEquivalent -->
@@ -2580,7 +2578,7 @@
         <rdfs:comment xml:lang="en"
             >An alternative definition for the SpicyPizza which does away with needing a definition of SpicyTopping and uses a slightly more complicated restriction: Pizzas that have at least one topping that is both a PizzaTopping and has spiciness hot are members of this class.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyTopping -->
@@ -2602,7 +2600,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza topping that has spiciness Hot</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping -->
@@ -2620,7 +2618,7 @@
         <owl:disjointWith rdf:resource="#AsparagusTopping"/>
         <owl:disjointWith rdf:resource="#PetitPoisTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping -->
@@ -2636,7 +2634,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping -->
@@ -2652,7 +2650,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping -->
@@ -2669,7 +2667,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="#GreenPepperTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase -->
@@ -2680,7 +2678,7 @@
         <rdfs:subClassOf rdf:resource="#PizzaBase"/>
         <owl:disjointWith rdf:resource="#DeepPanBase"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyPizza -->
@@ -2698,7 +2696,7 @@
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce -->
@@ -2714,7 +2712,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf rdf:resource="#SauceTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping -->
@@ -2737,7 +2735,7 @@
         <owl:disjointWith rdf:resource="#PetitPoisTopping"/>
         <owl:disjointWith rdf:resource="#AsparagusTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza -->
@@ -2760,7 +2758,7 @@
         <rdfs:comment rdf:datatype="&xsd;string"
             >An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition -->
@@ -2770,7 +2768,7 @@
         <rdfs:comment rdf:datatype="&xsd;string"
             >A ValuePartition is a pattern that describes a restricted set of classes from which a property can be associated. The parent class is used in restrictions, and the covering axiom means that only members of the subclasses may be used as values. The possible subclasses cannot be extended without updating the ValuePartition class.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping -->
@@ -2785,7 +2783,7 @@
         <owl:disjointWith rdf:resource="#CheeseTopping"/>
         <owl:disjointWith rdf:resource="#FishTopping"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza -->
@@ -2819,7 +2817,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza that does not have fish topping and does not have meat topping is a VegetarianPizza. Members of this class do not need to have any toppings at all.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent1 -->
@@ -2841,7 +2839,7 @@
         <rdfs:comment xml:lang="en"
             >Any pizza that only has vegetarian toppings or no toppings is a VegetarianPizzaEquiv1. Should be inferred to be equivalent to VegetarianPizzaEquiv2.  Not equivalent to VegetarianPizza because PizzaTopping is not covering</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent2 -->
@@ -2874,7 +2872,7 @@
         <rdfs:comment xml:lang="en"
             >An alternative to VegetarianPizzaEquiv1 that does not require a definition of VegetarianTopping. Perhaps more difficult to maintain. Not equivalent to VegetarianPizza</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianTopping -->
@@ -2902,7 +2900,7 @@
         <rdfs:comment xml:lang="en"
             >An example of a covering axiom. VegetarianTopping is equivalent to the union of all toppings in the given axiom. VegetarianToppings can only be Cheese or Vegetable or....etc.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana -->
@@ -2989,16 +2987,16 @@
         <owl:disjointWith rdf:resource="#AmericanHot"/>
         <owl:disjointWith rdf:resource="#Soho"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <owl:Class rdf:about="&owl;Thing"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -3006,7 +3004,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#America -->
@@ -3024,7 +3022,7 @@
             <rdf:Description rdf:about="#France"/>
         </owl:distinctMembers>
     </rdf:Description>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#England -->
@@ -3042,7 +3040,7 @@
             <rdf:Description rdf:about="#France"/>
         </owl:distinctMembers>
     </rdf:Description>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#France -->
@@ -3060,7 +3058,7 @@
             <rdf:Description rdf:about="#France"/>
         </owl:distinctMembers>
     </rdf:Description>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Germany -->
@@ -3078,7 +3076,7 @@
             <rdf:Description rdf:about="#France"/>
         </owl:distinctMembers>
     </rdf:Description>
-    
+
 
 
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Italy -->
