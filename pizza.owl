@@ -157,8 +157,6 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#isIngredientOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
-        <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
     </owl:ObjectProperty>
     
 
@@ -167,8 +165,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#isIngredientOf">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Food"/>
-        <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Food"/>
         <rdfs:comment xml:lang="en">The inverse property tree to hasIngredient - all subproperties and attributes of the properties should reflect those under hasIngredient.</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -179,8 +175,6 @@ This is an example ontology that contains all constructs required for the variou
     <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#isToppingOf">
         <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#isIngredientOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
-        <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
         <rdfs:comment xml:lang="en">Any given instance of topping should only be added to a single pizza (no cheap half-measures on our pizzas)</rdfs:comment>
     </owl:ObjectProperty>
     
