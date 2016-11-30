@@ -604,7 +604,7 @@ This is an example ontology that contains all constructs required for the variou
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping"/>
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
-        <rdfs:comment xml:lang="en">This class will be inconsistent. This is because we have given it 2 disjoint parents, which means it could never have any members (as nothing can simultaneously be a CheeseTopping and a VegetableTopping). NB Called ProbeInconsistentTopping in the ProtegeOWL Tutorial.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class will be unsatisfiable. This is because we have given it 2 disjoint parents, which means it could never have any instances (as nothing can be both a CheeseTopping and a VegetableTopping). NB Called ProbeInconsistentTopping in the ProtegeOWL Tutorial.</rdfs:comment>
         <rdfs:label xml:lang="en">CheesyVegetableTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeQueijoComVegetais</rdfs:label>
     </owl:Class>
