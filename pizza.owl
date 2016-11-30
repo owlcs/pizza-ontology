@@ -2041,6 +2041,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="en">Pizza</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Pizza"/>
     </owl:Class>
     
 
