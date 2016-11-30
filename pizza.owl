@@ -233,28 +233,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#America"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">American</rdfs:label>
         <rdfs:label xml:lang="pt">Americana</rdfs:label>
         <skos:altLabel xml:lang="en">American</skos:altLabel>
@@ -319,27 +297,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#America"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">AmericanHot</rdfs:label>
         <rdfs:label xml:lang="pt">AmericanaPicante</rdfs:label>
         <skos:altLabel xml:lang="en">American Hot</skos:altLabel>
@@ -352,8 +309,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping"/>
         <rdfs:label xml:lang="en">AnchoviesTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeAnchovies</rdfs:label>
     </owl:Class>
@@ -370,18 +325,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="en">ArtichokeTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeArtichoke</rdfs:label>
     </owl:Class>
@@ -398,17 +341,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="en">AsparagusTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeAspargos</rdfs:label>
     </owl:Class>
@@ -472,26 +404,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Cajun</rdfs:label>
         <rdfs:label xml:lang="pt">Cajun</rdfs:label>
         <skos:altLabel xml:lang="en">Cajun</skos:altLabel>
@@ -527,16 +439,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="en">CaperTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeCaper</rdfs:label>
     </owl:Class>
@@ -607,25 +509,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Capricciosa</rdfs:label>
         <rdfs:label xml:lang="pt">Capricciosa</rdfs:label>
         <skos:altLabel xml:lang="en">Capricciosa</skos:altLabel>
@@ -677,24 +560,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Caprina</rdfs:label>
         <rdfs:label xml:lang="pt">Caprina</rdfs:label>
         <skos:altLabel xml:lang="en">Caprina</skos:altLabel>
@@ -707,13 +572,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="en">CheeseTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeQueijo</rdfs:label>
     </owl:Class>
@@ -763,9 +621,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
         <rdfs:label xml:lang="en">ChickenTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeFrango</rdfs:label>
     </owl:Class>
@@ -875,23 +730,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Fiorentina</rdfs:label>
         <rdfs:label xml:lang="pt">Fiorentina</rdfs:label>
         <skos:altLabel xml:lang="en">Fiorentina</skos:altLabel>
@@ -910,12 +748,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePeixe</rdfs:label>
         <rdfs:label xml:lang="en">SeafoodTopping</rdfs:label>
     </owl:Class>
@@ -941,10 +773,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
         <rdfs:label xml:lang="pt">CoberturaQuatroQueijos</rdfs:label>
         <rdfs:label xml:lang="en">FourCheesesTopping</rdfs:label>
     </owl:Class>
@@ -1015,22 +843,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">FourSeasons</rdfs:label>
         <rdfs:label xml:lang="pt">QuatroQueijos</rdfs:label>
         <skos:altLabel xml:lang="en">Four Seasons</skos:altLabel>
@@ -1043,11 +855,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeFrutas</rdfs:label>
         <rdfs:label xml:lang="en">FruitTopping</rdfs:label>
     </owl:Class>
@@ -1090,21 +897,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">FrutosDoMar</rdfs:label>
         <rdfs:label xml:lang="en">FruttiDiMare</rdfs:label>
         <skos:altLabel xml:lang="en">Frutti Di Mare</skos:altLabel>
@@ -1123,15 +915,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeAlho</rdfs:label>
         <rdfs:label xml:lang="en">GarlicTopping</rdfs:label>
     </owl:Class>
@@ -1209,20 +992,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Giardiniera</rdfs:label>
         <rdfs:label xml:lang="pt">Giardiniera</rdfs:label>
         <skos:altLabel xml:lang="en">Giardiniera</skos:altLabel>
@@ -1241,9 +1010,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeQueijoDeCabra</rdfs:label>
         <rdfs:label xml:lang="en">GoatsCheeseTopping</rdfs:label>
     </owl:Class>
@@ -1260,8 +1026,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeGorgonzola</rdfs:label>
         <rdfs:label xml:lang="en">GorgonzolaTopping</rdfs:label>
     </owl:Class>
@@ -1272,9 +1036,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePimentaoVerde</rdfs:label>
         <rdfs:label xml:lang="en">GreenPepperTopping</rdfs:label>
     </owl:Class>
@@ -1285,8 +1046,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePresunto</rdfs:label>
         <rdfs:label xml:lang="en">HamTopping</rdfs:label>
     </owl:Class>
@@ -1297,10 +1056,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeErvas</rdfs:label>
         <rdfs:label xml:lang="en">HerbSpiceTopping</rdfs:label>
     </owl:Class>
@@ -1311,8 +1066,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
         <rdfs:label xml:lang="en">Hot</rdfs:label>
         <rdfs:label xml:lang="pt">Picante</rdfs:label>
     </owl:Class>
@@ -1345,7 +1098,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeBifePicante</rdfs:label>
         <rdfs:label xml:lang="en">HotSpicedBeefTopping</rdfs:label>
     </owl:Class>
@@ -1362,9 +1114,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:comment xml:lang="en">A class to demonstrate mistakes made with setting a property domain. The property hasTopping has a domain of Pizza. This means that the reasoner can infer that all individuals using the hasTopping property must be of type Pizza. Because of the restriction on this class, all members of IceCream must use the hasTopping property, and therefore must also be members of Pizza. However, Pizza and IceCream are disjoint, so this causes an inconsistency. If they were not disjoint, IceCream would be inferred to be a subclass of Pizza.</rdfs:comment>
         <rdfs:label xml:lang="en">IceCream</rdfs:label>
         <rdfs:label xml:lang="pt">Sorvete</rdfs:label>
@@ -1403,8 +1152,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeJalapeno</rdfs:label>
         <rdfs:label xml:lang="en">JalapenoPepperTopping</rdfs:label>
     </owl:Class>
@@ -1461,19 +1208,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">LaReine</rdfs:label>
         <rdfs:label xml:lang="pt">LaReine</rdfs:label>
         <skos:altLabel xml:lang="en">La Reine</skos:altLabel>
@@ -1492,14 +1226,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeLeek</rdfs:label>
         <rdfs:label xml:lang="en">LeekTopping</rdfs:label>
     </owl:Class>
@@ -1535,18 +1261,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Margherita</rdfs:label>
         <rdfs:label xml:lang="pt">Margherita</rdfs:label>
         <skos:altLabel xml:lang="en">Margherita</skos:altLabel>
@@ -1559,9 +1273,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCarne</rdfs:label>
         <rdfs:label xml:lang="en">MeatTopping</rdfs:label>
     </owl:Class>
@@ -1593,7 +1304,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
         <rdfs:label xml:lang="pt">Media</rdfs:label>
         <rdfs:label xml:lang="en">Medium</rdfs:label>
     </owl:Class>
@@ -1614,7 +1324,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeFrutosDoMarMistos</rdfs:label>
         <rdfs:label xml:lang="en">MixedSeafoodTopping</rdfs:label>
     </owl:Class>
@@ -1637,7 +1346,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Italy"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeMozzarella</rdfs:label>
         <rdfs:label xml:lang="en">MozzarellaTopping</rdfs:label>
     </owl:Class>
@@ -1680,17 +1388,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">Cogumelo</rdfs:label>
         <rdfs:label xml:lang="en">Mushroom</rdfs:label>
         <skos:altLabel xml:lang="en">Mushroom</skos:altLabel>
@@ -1709,13 +1406,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCogumelo</rdfs:label>
         <rdfs:label xml:lang="en">MushroomTopping</rdfs:label>
     </owl:Class>
@@ -1788,16 +1478,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Italy"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Napoletana</rdfs:label>
         <rdfs:label xml:lang="pt">Napoletana</rdfs:label>
         <skos:altLabel xml:lang="en">Napoletana</skos:altLabel>
@@ -1837,8 +1517,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCastanha</rdfs:label>
         <rdfs:label xml:lang="en">NutTopping</rdfs:label>
     </owl:Class>
@@ -1855,12 +1533,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeAzeitona</rdfs:label>
         <rdfs:label xml:lang="en">OliveTopping</rdfs:label>
     </owl:Class>
@@ -1877,11 +1549,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCebola</rdfs:label>
         <rdfs:label xml:lang="en">OnionTopping</rdfs:label>
     </owl:Class>
@@ -1954,15 +1621,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Parmense</rdfs:label>
         <rdfs:label xml:lang="pt">Parmense</rdfs:label>
         <skos:altLabel xml:lang="en">Parmese</skos:altLabel>
@@ -1997,7 +1655,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping"/>
         <rdfs:label xml:lang="pt">CoberturaPeperonata</rdfs:label>
         <rdfs:label xml:lang="en">PeperonataTopping</rdfs:label>
     </owl:Class>
@@ -2024,10 +1681,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePimentao</rdfs:label>
         <rdfs:label xml:lang="en">PepperTopping</rdfs:label>
     </owl:Class>
@@ -2044,9 +1697,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaPetitPois</rdfs:label>
         <rdfs:label xml:lang="en">PetitPoisTopping</rdfs:label>
     </owl:Class>
@@ -2073,8 +1723,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="en">Pizza</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Pizza"/>
     </owl:Class>
@@ -2085,7 +1733,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Food"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="pt">BaseDaPizza</rdfs:label>
         <rdfs:label xml:lang="en">PizzaBase</rdfs:label>
     </owl:Class>
@@ -2166,14 +1813,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">PolloAdAstra</rdfs:label>
         <rdfs:label xml:lang="pt">PolloAdAstra</rdfs:label>
         <skos:altLabel xml:lang="en">Pollo Ad Astra</skos:altLabel>
@@ -2242,13 +1881,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">CoberturaPrinceCarlo</rdfs:label>
         <rdfs:label xml:lang="en">PrinceCarlo</rdfs:label>
         <skos:altLabel xml:lang="en">Prince Carlo</skos:altLabel>
@@ -2286,12 +1918,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">QuatroQueijos</rdfs:label>
         <rdfs:label xml:lang="en">QuattroFormaggi</rdfs:label>
         <skos:altLabel xml:lang="en">Quattro Formaggi</skos:altLabel>
@@ -2347,8 +1973,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaRocket</rdfs:label>
         <rdfs:label xml:lang="en">RocketTopping</rdfs:label>
     </owl:Class>
@@ -2391,11 +2015,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Rosa</rdfs:label>
         <rdfs:label xml:lang="pt">Rosa</rdfs:label>
         <skos:altLabel xml:lang="en">Rosa</skos:altLabel>
@@ -2424,7 +2043,6 @@ This is an example ontology that contains all constructs required for the variou
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaEmMolho</rdfs:label>
         <rdfs:label xml:lang="en">SauceTopping</rdfs:label>
     </owl:Class>
@@ -2495,10 +2113,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Siciliana</rdfs:label>
         <rdfs:label xml:lang="pt">Siciliana</rdfs:label>
         <skos:altLabel xml:lang="en">Siciliana</skos:altLabel>
@@ -2574,9 +2188,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">SloppyGiuseppe</rdfs:label>
         <rdfs:label xml:lang="pt">SloppyGiuseppe</rdfs:label>
         <skos:altLabel xml:lang="en">Sloppy Giuseppe</skos:altLabel>
@@ -2642,8 +2253,6 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Soho</rdfs:label>
         <rdfs:label xml:lang="pt">Soho</rdfs:label>
         <skos:altLabel xml:lang="en">Soho</skos:altLabel>
@@ -2755,7 +2364,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeEspinafre</rdfs:label>
         <rdfs:label xml:lang="en">SpinachTopping</rdfs:label>
     </owl:Class>
@@ -2881,7 +2489,6 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings.</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaAberta</rdfs:label>
         <rdfs:label xml:lang="en">UnclosedPizza</rdfs:label>
@@ -3283,6 +2890,118 @@ This is an example ontology that contains all constructs required for the variou
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#American"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
