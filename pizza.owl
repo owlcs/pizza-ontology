@@ -86,6 +86,12 @@ This is an example ontology that contains all constructs required for the variou
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -237,6 +243,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Americana</rdfs:label>
         <skos:altLabel xml:lang="en">American</skos:altLabel>
         <skos:altLabel xml:lang="en">American Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">American</skos:prefLabel>
     </owl:Class>
     
 
@@ -301,6 +308,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">AmericanaPicante</rdfs:label>
         <skos:altLabel xml:lang="en">American Hot</skos:altLabel>
         <skos:altLabel xml:lang="en">American Hot Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">American Hot</skos:prefLabel>
     </owl:Class>
     
 
@@ -311,6 +319,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
         <rdfs:label xml:lang="en">AnchoviesTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeAnchovies</rdfs:label>
+        <skos:prefLabel xml:lang="en">Anchovies</skos:prefLabel>
     </owl:Class>
     
 
@@ -327,6 +336,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ArtichokeTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeArtichoke</rdfs:label>
+        <skos:prefLabel xml:lang="en">Artichoke</skos:prefLabel>
     </owl:Class>
     
 
@@ -343,6 +353,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">AsparagusTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeAspargos</rdfs:label>
+        <skos:prefLabel xml:lang="en">Asparagus</skos:prefLabel>
     </owl:Class>
     
 
@@ -408,6 +419,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Cajun</rdfs:label>
         <skos:altLabel xml:lang="en">Cajun</skos:altLabel>
         <skos:altLabel xml:lang="en">Cajun Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Cajun</skos:prefLabel>
     </owl:Class>
     
 
@@ -425,6 +437,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping"/>
         <rdfs:label xml:lang="en">CajunSpiceTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeCajun</rdfs:label>
+        <skos:prefLabel xml:lang="en">Cajun Spice</skos:prefLabel>
     </owl:Class>
     
 
@@ -441,6 +454,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">CaperTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeCaper</rdfs:label>
+        <skos:prefLabel xml:lang="en">Caper</skos:prefLabel>
     </owl:Class>
     
 
@@ -513,6 +527,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Capricciosa</rdfs:label>
         <skos:altLabel xml:lang="en">Capricciosa</skos:altLabel>
         <skos:altLabel xml:lang="en">Capricciosa Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Capricciosa</skos:prefLabel>
     </owl:Class>
     
 
@@ -564,6 +579,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Caprina</rdfs:label>
         <skos:altLabel xml:lang="en">Caprina</skos:altLabel>
         <skos:altLabel xml:lang="en">Caprina Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Caprina</skos:prefLabel>
     </owl:Class>
     
 
@@ -574,6 +590,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="en">CheeseTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeQueijo</rdfs:label>
+        <skos:prefLabel xml:lang="en">Cheese</skos:prefLabel>
     </owl:Class>
     
 
@@ -595,6 +612,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">CheesyPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaComQueijo</rdfs:label>
         <skos:definition xml:lang="en">Any pizza that has at least 1 cheese topping.</skos:definition>
+        <skos:prefLabel xml:lang="en">Cheesy Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -623,6 +641,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ChickenTopping</rdfs:label>
         <rdfs:label xml:lang="pt">CoberturaDeFrango</rdfs:label>
+        <skos:prefLabel xml:lang="en">Chicken</skos:prefLabel>
     </owl:Class>
     
 
@@ -649,6 +668,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">A class that is equivalent to the set of individuals that are described in the enumeration - ie Countries can only be either America, England, France, Germany or Italy and nothing else. Note that these individuals have been asserted to be allDifferent from each other.</rdfs:comment>
         <rdfs:label xml:lang="en">Country</rdfs:label>
         <rdfs:label xml:lang="pt">Pais</rdfs:label>
+        <skos:prefLabel xml:lang="en">Country</skos:prefLabel>
     </owl:Class>
     
 
@@ -660,6 +680,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase"/>
         <rdfs:label xml:lang="pt">BaseEspessa</rdfs:label>
         <rdfs:label xml:lang="en">DeepPanBase</rdfs:label>
+        <skos:prefLabel xml:lang="en">Deep Pan Base</skos:prefLabel>
     </owl:Class>
     
 
@@ -669,6 +690,7 @@ This is an example ontology that contains all constructs required for the variou
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept">
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition"/>
         <rdfs:label xml:lang="en">DomainThing</rdfs:label>
+        <skos:prefLabel xml:lang="en">Domain Thing</skos:prefLabel>
     </owl:Class>
     
 
@@ -734,6 +756,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Fiorentina</rdfs:label>
         <skos:altLabel xml:lang="en">Fiorentina</skos:altLabel>
         <skos:altLabel xml:lang="en">Fiorentina Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Fiorentina</skos:prefLabel>
     </owl:Class>
     
 
@@ -750,6 +773,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDePeixe</rdfs:label>
         <rdfs:label xml:lang="en">SeafoodTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Seafood</skos:prefLabel>
     </owl:Class>
     
 
@@ -759,6 +783,7 @@ This is an example ontology that contains all constructs required for the variou
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Food">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept"/>
         <rdfs:label xml:lang="en">Food</rdfs:label>
+        <skos:prefLabel xml:lang="en">Food</skos:prefLabel>
     </owl:Class>
     
 
@@ -775,6 +800,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaQuatroQueijos</rdfs:label>
         <rdfs:label xml:lang="en">FourCheesesTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Four Cheeses</skos:prefLabel>
     </owl:Class>
     
 
@@ -847,6 +873,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">QuatroQueijos</rdfs:label>
         <skos:altLabel xml:lang="en">Four Seasons</skos:altLabel>
         <skos:altLabel xml:lang="en">Four Seasons Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Four Seasons</skos:prefLabel>
     </owl:Class>
     
 
@@ -857,6 +884,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeFrutas</rdfs:label>
         <rdfs:label xml:lang="en">FruitTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Fruit</skos:prefLabel>
     </owl:Class>
     
 
@@ -901,6 +929,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">FruttiDiMare</rdfs:label>
         <skos:altLabel xml:lang="en">Frutti Di Mare</skos:altLabel>
         <skos:altLabel xml:lang="en">Frutti Di Mare Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Frutti Di Mare</skos:prefLabel>
     </owl:Class>
     
 
@@ -917,6 +946,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeAlho</rdfs:label>
         <rdfs:label xml:lang="en">GarlicTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Garlic</skos:prefLabel>
     </owl:Class>
     
 
@@ -996,6 +1026,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Giardiniera</rdfs:label>
         <skos:altLabel xml:lang="en">Giardiniera</skos:altLabel>
         <skos:altLabel xml:lang="en">Giardiniera Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Giardiniera</skos:prefLabel>
     </owl:Class>
     
 
@@ -1012,6 +1043,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeQueijoDeCabra</rdfs:label>
         <rdfs:label xml:lang="en">GoatsCheeseTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Goats Cheese</skos:prefLabel>
     </owl:Class>
     
 
@@ -1028,6 +1060,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeGorgonzola</rdfs:label>
         <rdfs:label xml:lang="en">GorgonzolaTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Gorgonzola</skos:prefLabel>
     </owl:Class>
     
 
@@ -1038,6 +1071,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePimentaoVerde</rdfs:label>
         <rdfs:label xml:lang="en">GreenPepperTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Green Pepper</skos:prefLabel>
     </owl:Class>
     
 
@@ -1048,6 +1082,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePresunto</rdfs:label>
         <rdfs:label xml:lang="en">HamTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Ham</skos:prefLabel>
     </owl:Class>
     
 
@@ -1058,6 +1093,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeErvas</rdfs:label>
         <rdfs:label xml:lang="en">HerbSpiceTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Herb Spice</skos:prefLabel>
     </owl:Class>
     
 
@@ -1068,6 +1104,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness"/>
         <rdfs:label xml:lang="en">Hot</rdfs:label>
         <rdfs:label xml:lang="pt">Picante</rdfs:label>
+        <skos:prefLabel xml:lang="en">Hot</skos:prefLabel>
     </owl:Class>
     
 
@@ -1084,6 +1121,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDePimentaoVerdePicante</rdfs:label>
         <rdfs:label xml:lang="en">HotGreenPepperTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Hot Green Pepper</skos:prefLabel>
     </owl:Class>
     
 
@@ -1100,6 +1138,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeBifePicante</rdfs:label>
         <rdfs:label xml:lang="en">HotSpicedBeefTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Hot Spiced Beef</skos:prefLabel>
     </owl:Class>
     
 
@@ -1117,6 +1156,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">A class to demonstrate mistakes made with setting a property domain. The property hasTopping has a domain of Pizza. This means that the reasoner can infer that all individuals using the hasTopping property must be of type Pizza. Because of the restriction on this class, all members of IceCream must use the hasTopping property, and therefore must also be members of Pizza. However, Pizza and IceCream are disjoint, so this causes an inconsistency. If they were not disjoint, IceCream would be inferred to be a subclass of Pizza.</rdfs:comment>
         <rdfs:label xml:lang="en">IceCream</rdfs:label>
         <rdfs:label xml:lang="pt">Sorvete</rdfs:label>
+        <skos:prefLabel xml:lang="en">Ice Cream</skos:prefLabel>
     </owl:Class>
     
 
@@ -1138,6 +1178,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">InterestingPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaInteressante</rdfs:label>
         <skos:definition xml:lang="en">Any pizza that has at least 3 toppings. Note that this is a cardinality constraint on the hasTopping property and NOT a qualified cardinality constraint (QCR). A QCR would specify from which class the members in this relationship must be. eg has at least 3 toppings from PizzaTopping. This is currently not supported in OWL.</skos:definition>
+        <skos:prefLabel xml:lang="en">Interesting Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -1154,6 +1195,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeJalapeno</rdfs:label>
         <rdfs:label xml:lang="en">JalapenoPepperTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Jalapeno Pepper</skos:prefLabel>
     </owl:Class>
     
 
@@ -1212,6 +1254,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">LaReine</rdfs:label>
         <skos:altLabel xml:lang="en">La Reine</skos:altLabel>
         <skos:altLabel xml:lang="en">La Reine Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">La Reine</skos:prefLabel>
     </owl:Class>
     
 
@@ -1228,6 +1271,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeLeek</rdfs:label>
         <rdfs:label xml:lang="en">LeekTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Leek</skos:prefLabel>
     </owl:Class>
     
 
@@ -1265,6 +1309,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Margherita</rdfs:label>
         <skos:altLabel xml:lang="en">Margherita</skos:altLabel>
         <skos:altLabel xml:lang="en">Margherita Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Margherita</skos:prefLabel>
     </owl:Class>
     
 
@@ -1275,6 +1320,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCarne</rdfs:label>
         <rdfs:label xml:lang="en">MeatTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Meat</skos:prefLabel>
     </owl:Class>
     
 
@@ -1296,6 +1342,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">MeatyPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaDeCarne</rdfs:label>
         <skos:definition xml:lang="en">Any pizza that has at least one meat topping</skos:definition>
+        <skos:prefLabel xml:lang="en">Meaty Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -1306,6 +1353,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness"/>
         <rdfs:label xml:lang="pt">Media</rdfs:label>
         <rdfs:label xml:lang="en">Medium</rdfs:label>
+        <skos:prefLabel xml:lang="en">Medium</skos:prefLabel>
     </owl:Class>
     
 
@@ -1316,6 +1364,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness"/>
         <rdfs:label xml:lang="en">Mild</rdfs:label>
         <rdfs:label xml:lang="pt">NaoPicante</rdfs:label>
+        <skos:prefLabel xml:lang="en">Mild</skos:prefLabel>
     </owl:Class>
     
 
@@ -1326,6 +1375,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeFrutosDoMarMistos</rdfs:label>
         <rdfs:label xml:lang="en">MixedSeafoodTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Mixed Seafood</skos:prefLabel>
     </owl:Class>
     
 
@@ -1348,6 +1398,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeMozzarella</rdfs:label>
         <rdfs:label xml:lang="en">MozzarellaTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Mozzarella</skos:prefLabel>
     </owl:Class>
     
 
@@ -1392,6 +1443,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">Mushroom</rdfs:label>
         <skos:altLabel xml:lang="en">Mushroom</skos:altLabel>
         <skos:altLabel xml:lang="en">Mushroom Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Mushroom</skos:prefLabel>
     </owl:Class>
     
 
@@ -1408,6 +1460,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeCogumelo</rdfs:label>
         <rdfs:label xml:lang="en">MushroomTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Mushroom</skos:prefLabel>
     </owl:Class>
     
 
@@ -1482,6 +1535,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Napoletana</rdfs:label>
         <skos:altLabel xml:lang="en">Napoletana</skos:altLabel>
         <skos:altLabel xml:lang="en">Napoletana Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Napoletana</skos:prefLabel>
     </owl:Class>
     
 
@@ -1503,6 +1557,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">NonVegetarianPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaNaoVegetariana</rdfs:label>
         <skos:definition xml:lang="en">Any Pizza that is not a VegetarianPizza</skos:definition>
+        <skos:prefLabel xml:lang="en">Non Vegetarian Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -1519,6 +1574,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeCastanha</rdfs:label>
         <rdfs:label xml:lang="en">NutTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Nut</skos:prefLabel>
     </owl:Class>
     
 
@@ -1535,6 +1591,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeAzeitona</rdfs:label>
         <rdfs:label xml:lang="en">OliveTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Olive</skos:prefLabel>
     </owl:Class>
     
 
@@ -1551,6 +1608,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeCebola</rdfs:label>
         <rdfs:label xml:lang="en">OnionTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Onion</skos:prefLabel>
     </owl:Class>
     
 
@@ -1567,6 +1625,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDePrezuntoParma</rdfs:label>
         <rdfs:label xml:lang="en">ParmaHamTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Parma Ham</skos:prefLabel>
     </owl:Class>
     
 
@@ -1625,6 +1684,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Parmense</rdfs:label>
         <skos:altLabel xml:lang="en">Parmese</skos:altLabel>
         <skos:altLabel xml:lang="en">Parmese Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Parmense</skos:prefLabel>
     </owl:Class>
     
 
@@ -1641,6 +1701,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeParmesao</rdfs:label>
         <rdfs:label xml:lang="en">ParmezanTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Parmezan</skos:prefLabel>
     </owl:Class>
     
 
@@ -1657,6 +1718,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaPeperonata</rdfs:label>
         <rdfs:label xml:lang="en">PeperonataTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Peperonata</skos:prefLabel>
     </owl:Class>
     
 
@@ -1673,6 +1735,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeCalabreza</rdfs:label>
         <rdfs:label xml:lang="en">PeperoniSausageTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Peperoni Sausage</skos:prefLabel>
     </owl:Class>
     
 
@@ -1683,6 +1746,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDePimentao</rdfs:label>
         <rdfs:label xml:lang="en">PepperTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pepper</skos:prefLabel>
     </owl:Class>
     
 
@@ -1699,6 +1763,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaPetitPois</rdfs:label>
         <rdfs:label xml:lang="en">PetitPoisTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Petit Pois</skos:prefLabel>
     </owl:Class>
     
 
@@ -1709,6 +1774,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"/>
         <rdfs:label xml:lang="pt">CoberturaPineKernels</rdfs:label>
         <rdfs:label xml:lang="en">PineKernelTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pine Kernel</skos:prefLabel>
     </owl:Class>
     
 
@@ -1725,6 +1791,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Pizza</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Pizza"/>
+        <skos:prefLabel xml:lang="en">Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -1735,6 +1802,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Food"/>
         <rdfs:label xml:lang="pt">BaseDaPizza</rdfs:label>
         <rdfs:label xml:lang="en">PizzaBase</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pizza Base</skos:prefLabel>
     </owl:Class>
     
 
@@ -1745,6 +1813,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Food"/>
         <rdfs:label xml:lang="pt">CoberturaDaPizza</rdfs:label>
         <rdfs:label xml:lang="en">PizzaTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pizza Topping</skos:prefLabel>
     </owl:Class>
     
 
@@ -1817,6 +1886,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">PolloAdAstra</rdfs:label>
         <skos:altLabel xml:lang="en">Pollo Ad Astra</skos:altLabel>
         <skos:altLabel xml:lang="en">Pollo Ad Astra Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Pollo Ad Astra</skos:prefLabel>
     </owl:Class>
     
 
@@ -1827,6 +1897,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCamarao</rdfs:label>
         <rdfs:label xml:lang="en">PrawnsTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Prawns</skos:prefLabel>
     </owl:Class>
     
 
@@ -1885,6 +1956,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">PrinceCarlo</rdfs:label>
         <skos:altLabel xml:lang="en">Prince Carlo</skos:altLabel>
         <skos:altLabel xml:lang="en">Prince Carlo Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Prince Carlo</skos:prefLabel>
     </owl:Class>
     
 
@@ -1922,6 +1994,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="en">QuattroFormaggi</rdfs:label>
         <skos:altLabel xml:lang="en">Quattro Formaggi</skos:altLabel>
         <skos:altLabel xml:lang="en">Quattro Formaggi Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Quattro Formaggi</skos:prefLabel>
     </owl:Class>
     
 
@@ -1949,6 +2022,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">PizzaItalianaReal</rdfs:label>
         <rdfs:label xml:lang="en">RealItalianPizza</rdfs:label>
         <skos:definition xml:lang="en">Any Pizza that has the country of origin, Italy.  RealItalianPizzas must also only have ThinAndCrispy bases.</skos:definition>
+        <skos:prefLabel xml:lang="en">Real Italian Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -1959,6 +2033,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeCebolaVermelha</rdfs:label>
         <rdfs:label xml:lang="en">RedOnionTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Red Onion</skos:prefLabel>
     </owl:Class>
     
 
@@ -1975,6 +2050,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaRocket</rdfs:label>
         <rdfs:label xml:lang="en">RocketTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Rocket</skos:prefLabel>
     </owl:Class>
     
 
@@ -2019,6 +2095,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Rosa</rdfs:label>
         <skos:altLabel xml:lang="en">Rosa</skos:altLabel>
         <skos:altLabel xml:lang="en">Rosa Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Rosa</skos:prefLabel>
     </owl:Class>
     
 
@@ -2035,6 +2112,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaRosemary</rdfs:label>
         <rdfs:label xml:lang="en">RosemaryTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Rosemary</skos:prefLabel>
     </owl:Class>
     
 
@@ -2045,6 +2123,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="pt">CoberturaEmMolho</rdfs:label>
         <rdfs:label xml:lang="en">SauceTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Sauce</skos:prefLabel>
     </owl:Class>
     
 
@@ -2117,6 +2196,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Siciliana</rdfs:label>
         <skos:altLabel xml:lang="en">Siciliana</skos:altLabel>
         <skos:altLabel xml:lang="en">Siciliana Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Siciliana</skos:prefLabel>
     </owl:Class>
     
 
@@ -2134,6 +2214,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeTomateFatiado</rdfs:label>
         <rdfs:label xml:lang="en">SlicedTomatoTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Sliced Tomato</skos:prefLabel>
     </owl:Class>
     
 
@@ -2192,6 +2273,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">SloppyGiuseppe</rdfs:label>
         <skos:altLabel xml:lang="en">Sloppy Giuseppe</skos:altLabel>
         <skos:altLabel xml:lang="en">Sloppy Giuseppe Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Sloppy Giuseppe</skos:prefLabel>
     </owl:Class>
     
 
@@ -2257,6 +2339,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Soho</rdfs:label>
         <skos:altLabel xml:lang="en">Soho</skos:altLabel>
         <skos:altLabel xml:lang="en">Soho Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Soho</skos:prefLabel>
     </owl:Class>
     
 
@@ -2277,6 +2360,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">A ValuePartition that describes only values from Hot, Medium or Mild. NB Subclasses can themselves be divided up into further partitions.</rdfs:comment>
         <rdfs:label xml:lang="en">Spiciness</rdfs:label>
         <rdfs:label xml:lang="pt">Tempero</rdfs:label>
+        <skos:prefLabel xml:lang="en">Spiciness</skos:prefLabel>
     </owl:Class>
     
 
@@ -2298,6 +2382,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">PizzaTemperada</rdfs:label>
         <rdfs:label xml:lang="en">SpicyPizza</rdfs:label>
         <skos:definition xml:lang="en">Any pizza that has a spicy topping is a SpicyPizza</skos:definition>
+        <skos:prefLabel xml:lang="en">Spicy Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -2329,6 +2414,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">An alternative definition for the SpicyPizza which does away with needing a definition of SpicyTopping and uses a slightly more complicated restriction: Pizzas that have at least one topping that is both a PizzaTopping and has spiciness hot are members of this class.</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaTemperadaEquivalente</rdfs:label>
         <rdfs:label xml:lang="en">SpicyPizzaEquivalent</rdfs:label>
+        <skos:prefLabel xml:lang="en">Spicy Pizza Equivalent</skos:prefLabel>
     </owl:Class>
     
 
@@ -2350,6 +2436,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">CoberturaTemperada</rdfs:label>
         <rdfs:label xml:lang="en">SpicyTopping</rdfs:label>
         <skos:definition xml:lang="en">Any pizza topping that has spiciness Hot</skos:definition>
+        <skos:prefLabel xml:lang="en">Spicy</skos:prefLabel>
     </owl:Class>
     
 
@@ -2366,6 +2453,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeEspinafre</rdfs:label>
         <rdfs:label xml:lang="en">SpinachTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Spinach</skos:prefLabel>
     </owl:Class>
     
 
@@ -2382,6 +2470,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaSultana</rdfs:label>
         <rdfs:label xml:lang="en">SultanaTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Sultana</skos:prefLabel>
     </owl:Class>
     
 
@@ -2398,6 +2487,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeTomateRessecadoAoSol</rdfs:label>
         <rdfs:label xml:lang="en">SundriedTomatoTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Sundried Tomato</skos:prefLabel>
     </owl:Class>
     
 
@@ -2414,6 +2504,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDePimentaoDoce</rdfs:label>
         <rdfs:label xml:lang="en">SweetPepperTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Sweet Pepper</skos:prefLabel>
     </owl:Class>
     
 
@@ -2424,6 +2515,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
         <rdfs:label xml:lang="pt">BaseFinaEQuebradica</rdfs:label>
         <rdfs:label xml:lang="en">ThinAndCrispyBase</rdfs:label>
+        <skos:prefLabel xml:lang="en">Thin And Crispy Base</skos:prefLabel>
     </owl:Class>
     
 
@@ -2443,6 +2535,7 @@ This is an example ontology that contains all constructs required for the variou
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:label xml:lang="en">ThinAndCrispyPizza</rdfs:label>
+        <skos:prefLabel xml:lang="en">Thin And Crispy Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -2459,6 +2552,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">MolhoTobascoPepper</rdfs:label>
         <rdfs:label xml:lang="en">TobascoPepperSauceTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Tobasco Pepper Sauce</skos:prefLabel>
     </owl:Class>
     
 
@@ -2475,6 +2569,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">CoberturaDeTomate</rdfs:label>
         <rdfs:label xml:lang="en">TomatoTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Tomato</skos:prefLabel>
     </owl:Class>
     
 
@@ -2492,6 +2587,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings.</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaAberta</rdfs:label>
         <rdfs:label xml:lang="en">UnclosedPizza</rdfs:label>
+        <skos:prefLabel xml:lang="en">Unclosed Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -2502,6 +2598,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ValuePartition is a pattern that describes a restricted set of classes from which a property can be associated. The parent class is used in restrictions, and the covering axiom means that only members of the subclasses may be used as values. The possible subclasses cannot be extended without updating the ValuePartition class.</rdfs:comment>
         <rdfs:label xml:lang="pt">ValorDaParticao</rdfs:label>
         <rdfs:label xml:lang="en">ValuePartition</rdfs:label>
+        <skos:prefLabel xml:lang="en">Value Partition</skos:prefLabel>
     </owl:Class>
     
 
@@ -2512,6 +2609,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
         <rdfs:label xml:lang="pt">CoberturaDeVegetais</rdfs:label>
         <rdfs:label xml:lang="en">VegetableTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Vegetable Topping</skos:prefLabel>
     </owl:Class>
     
 
@@ -2545,6 +2643,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">PizzaVegetariana</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianPizza</rdfs:label>
         <skos:definition xml:lang="en">Any pizza that does not have fish topping and does not have meat topping is a VegetarianPizza. Note that instances of this class do not need to have any toppings at all.</skos:definition>
+        <skos:prefLabel xml:lang="en">Vegetarian Pizza</skos:prefLabel>
     </owl:Class>
     
 
@@ -2566,6 +2665,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">Any pizza that only has vegetarian toppings or no toppings is a VegetarianPizzaEquiv1. Should be inferred to be equivalent to VegetarianPizzaEquiv2.  Not equivalent to VegetarianPizza because PizzaTopping is not covering</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaVegetarianaEquivalente1</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianPizza1</rdfs:label>
+        <skos:prefLabel xml:lang="en">Vegetarian Pizza1</skos:prefLabel>
     </owl:Class>
     
 
@@ -2598,6 +2698,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">An alternative to VegetarianPizzaEquiv1 that does not require a definition of VegetarianTopping. Perhaps more difficult to maintain. Not equivalent to VegetarianPizza</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaVegetarianaEquivalente2</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianPizza2</rdfs:label>
+        <skos:prefLabel xml:lang="en">Vegetarian Pizza2</skos:prefLabel>
     </owl:Class>
     
 
@@ -2625,6 +2726,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:comment xml:lang="en">An example of a covering axiom. VegetarianTopping is equivalent to the union of all toppings in the given axiom. VegetarianToppings can only be Cheese or Vegetable or....etc.</rdfs:comment>
         <rdfs:label xml:lang="pt">CoberturaVegetariana</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianTopping</rdfs:label>
+        <skos:prefLabel xml:lang="en">Vegetarian Topping</skos:prefLabel>
     </owl:Class>
     
 
@@ -2703,6 +2805,7 @@ This is an example ontology that contains all constructs required for the variou
         <rdfs:label xml:lang="pt">Veneziana</rdfs:label>
         <skos:altLabel xml:lang="en">Veneziana</skos:altLabel>
         <skos:altLabel xml:lang="en">Veneziana Pizza</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Veneziana</skos:prefLabel>
     </owl:Class>
     
 
