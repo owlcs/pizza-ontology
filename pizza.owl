@@ -7,6 +7,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/pizza">
@@ -70,6 +71,12 @@ This is an example ontology that contains all constructs required for the variou
     <!-- http://purl.org/dc/terms/provenance -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/provenance"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
@@ -717,9 +724,9 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">Any pizza that has at least 1 cheese topping.</rdfs:comment>
         <rdfs:label xml:lang="en">CheesyPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaComQueijo</rdfs:label>
+        <skos:definition xml:lang="en">Any pizza that has at least 1 cheese topping.</skos:definition>
     </owl:Class>
     
 
@@ -1361,9 +1368,9 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">Any pizza that has at least 3 toppings. Note that this is a cardinality constraint on the hasTopping property and NOT a qualified cardinality constraint (QCR). A QCR would specify from which class the members in this relationship must be. eg has at least 3 toppings from PizzaTopping. This is currently not supported in OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">InterestingPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaInteressante</rdfs:label>
+        <skos:definition xml:lang="en">Any pizza that has at least 3 toppings. Note that this is a cardinality constraint on the hasTopping property and NOT a qualified cardinality constraint (QCR). A QCR would specify from which class the members in this relationship must be. eg has at least 3 toppings from PizzaTopping. This is currently not supported in OWL.</skos:definition>
     </owl:Class>
     
 
@@ -1553,9 +1560,9 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">Any pizza that has at least one meat topping</rdfs:comment>
         <rdfs:label xml:lang="en">MeatyPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaDeCarne</rdfs:label>
+        <skos:definition xml:lang="en">Any pizza that has at least one meat topping</skos:definition>
     </owl:Class>
     
 
@@ -1787,9 +1794,9 @@ This is an example ontology that contains all constructs required for the variou
             </owl:Class>
         </owl:equivalentClass>
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza"/>
-        <rdfs:comment xml:lang="en">Any Pizza that is not a VegetarianPizza</rdfs:comment>
         <rdfs:label xml:lang="en">NonVegetarianPizza</rdfs:label>
         <rdfs:label xml:lang="pt">PizzaNaoVegetariana</rdfs:label>
+        <skos:definition xml:lang="en">Any Pizza that is not a VegetarianPizza</skos:definition>
     </owl:Class>
     
 
@@ -2279,9 +2286,9 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">This defined class has conditions that are part of the definition: ie any Pizza that has the country of origin, Italy is a RealItalianPizza. It also has conditions that merely describe the members - that all RealItalianPizzas must only have ThinAndCrispy bases. In essence, all pizzas from Italy must have ThinAndCrispy bases.</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaItalianaReal</rdfs:label>
         <rdfs:label xml:lang="en">RealItalianPizza</rdfs:label>
+        <skos:definition xml:lang="en">Any Pizza that has the country of origin, Italy.  RealItalianPizzas must also only have ThinAndCrispy bases.</skos:definition>
     </owl:Class>
     
 
@@ -2637,9 +2644,9 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">Any pizza that has a spicy topping is a SpicyPizza</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaTemperada</rdfs:label>
         <rdfs:label xml:lang="en">SpicyPizza</rdfs:label>
+        <skos:definition xml:lang="en">Any pizza that has a spicy topping is a SpicyPizza</skos:definition>
     </owl:Class>
     
 
@@ -2689,9 +2696,9 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">Any pizza topping that has spiciness Hot</rdfs:comment>
         <rdfs:label xml:lang="pt">CoberturaTemperada</rdfs:label>
         <rdfs:label xml:lang="en">SpicyTopping</rdfs:label>
+        <skos:definition xml:lang="en">Any pizza topping that has spiciness Hot</skos:definition>
     </owl:Class>
     
 
@@ -2886,9 +2893,9 @@ This is an example ontology that contains all constructs required for the variou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">Any pizza that does not have fish topping and does not have meat topping is a VegetarianPizza. Members of this class do not need to have any toppings at all.</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaVegetariana</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianPizza</rdfs:label>
+        <skos:definition xml:lang="en">Any pizza that does not have fish topping and does not have meat topping is a VegetarianPizza. Note that instances of this class do not need to have any toppings at all.</skos:definition>
     </owl:Class>
     
 
@@ -3119,107 +3126,107 @@ This is an example ontology that contains all constructs required for the variou
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="?x">
-        <rdfs:label xml:lang="en">Capricciosa</rdfs:label>
-        <rdfs:label xml:lang="en">JalapenoPepperTopping</rdfs:label>
-        <rdfs:label xml:lang="en">SpicyPizzaEquivalent</rdfs:label>
-        <rdfs:label xml:lang="en">Food</rdfs:label>
-        <rdfs:label xml:lang="en">Fiorentina</rdfs:label>
-        <rdfs:label xml:lang="en">DomainConcept</rdfs:label>
-        <rdfs:label xml:lang="en">SlicedTomatoTopping</rdfs:label>
-        <rdfs:label xml:lang="en">GarlicTopping</rdfs:label>
-        <rdfs:label xml:lang="en">ValuePartition</rdfs:label>
-        <rdfs:label xml:lang="en">FruttiDiMare</rdfs:label>
-        <rdfs:label xml:lang="en">Hot</rdfs:label>
-        <rdfs:label xml:lang="en">ParmesanTopping</rdfs:label>
-        <rdfs:label xml:lang="en">PeperonataTopping</rdfs:label>
-        <rdfs:label xml:lang="en">HotSpicedBeefTopping</rdfs:label>
-        <rdfs:label xml:lang="en">Parmense</rdfs:label>
-        <rdfs:label xml:lang="en">Medium</rdfs:label>
-        <rdfs:label xml:lang="en">LeekTopping</rdfs:label>
-        <rdfs:label xml:lang="en">PrawnsTopping</rdfs:label>
-        <rdfs:label xml:lang="en">CheeseTopping</rdfs:label>
-        <rdfs:label xml:lang="en">Napoletana</rdfs:label>
-        <rdfs:label xml:lang="en">Rosa</rdfs:label>
-        <rdfs:label xml:lang="en">GoatsCheeseTopping</rdfs:label>
-        <rdfs:label xml:lang="en">NutTopping</rdfs:label>
-        <rdfs:label xml:lang="en">HamTopping</rdfs:label>
-        <rdfs:label xml:lang="en">TobascoPepperSauce</rdfs:label>
-        <rdfs:label xml:lang="en">TomatoTopping</rdfs:label>
-        <rdfs:label xml:lang="en">UnclosedPizza</rdfs:label>
-        <rdfs:label xml:lang="en">CajunSpiceTopping</rdfs:label>
-        <rdfs:label xml:lang="en">PolloAdAstra</rdfs:label>
-        <rdfs:label xml:lang="en">VegetarianPizzaEquivalent2</rdfs:label>
-        <rdfs:label xml:lang="en">PizzaBase</rdfs:label>
-        <rdfs:label xml:lang="en">SpicyPizza</rdfs:label>
-        <rdfs:label xml:lang="en">PizzaTopping</rdfs:label>
-        <rdfs:label xml:lang="en">OliveTopping</rdfs:label>
+    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/?x">
+        <rdfs:label xml:lang="en">VegetableTopping</rdfs:label>
+        <rdfs:label xml:lang="en">HerbSpiceTopping</rdfs:label>
         <rdfs:label xml:lang="en">AmericanHot</rdfs:label>
         <rdfs:label xml:lang="en">MeatyPizza</rdfs:label>
+        <rdfs:label xml:lang="en">SauceTopping</rdfs:label>
+        <rdfs:label xml:lang="en">LaReine</rdfs:label>
+        <rdfs:label xml:lang="en">MozzarellaTopping</rdfs:label>
+        <rdfs:label xml:lang="en">PeperoniSausageTopping</rdfs:label>
+        <rdfs:label xml:lang="en">NamedPizza</rdfs:label>
+        <rdfs:label xml:lang="en">TomatoTopping</rdfs:label>
+        <rdfs:label xml:lang="en">UnclosedPizza</rdfs:label>
         <rdfs:label xml:lang="en">GorgonzolaTopping</rdfs:label>
         <rdfs:label xml:lang="en">PrinceCarlo</rdfs:label>
         <rdfs:label xml:lang="en">PetitPoisTopping</rdfs:label>
         <rdfs:label xml:lang="en">GreenPepperTopping</rdfs:label>
-        <rdfs:label xml:lang="en">PeperoniSausageTopping</rdfs:label>
-        <rdfs:label xml:lang="en">NamedPizza</rdfs:label>
-        <rdfs:label xml:lang="en">SpinachTopping</rdfs:label>
-        <rdfs:label xml:lang="en">InterestingPizza</rdfs:label>
-        <rdfs:label xml:lang="en">ThinAndCrispyBase</rdfs:label>
-        <rdfs:label xml:lang="en">Mushroom</rdfs:label>
-        <rdfs:label xml:lang="en">RealItalianPizza</rdfs:label>
-        <rdfs:label xml:lang="en">CheeseyPizza</rdfs:label>
-        <rdfs:label xml:lang="en">QuattroFormaggi</rdfs:label>
+        <rdfs:label xml:lang="en">PizzaBase</rdfs:label>
+        <rdfs:label xml:lang="en">SpicyPizza</rdfs:label>
+        <rdfs:label xml:lang="en">PizzaTopping</rdfs:label>
+        <rdfs:label xml:lang="en">OliveTopping</rdfs:label>
         <rdfs:label xml:lang="en">American</rdfs:label>
-        <rdfs:label xml:lang="en">Siciliana</rdfs:label>
+        <rdfs:label xml:lang="en">PolloAdAstra</rdfs:label>
+        <rdfs:label xml:lang="en">VegetarianPizzaEquivalent2</rdfs:label>
+        <rdfs:label xml:lang="en">CajunSpiceTopping</rdfs:label>
         <rdfs:label xml:lang="en">Country</rdfs:label>
         <rdfs:label xml:lang="en">HotGreenPepperTopping</rdfs:label>
         <rdfs:label xml:lang="en">Caprina</rdfs:label>
         <rdfs:label xml:lang="en">MeatTopping</rdfs:label>
+        <rdfs:label xml:lang="en">SpinachTopping</rdfs:label>
+        <rdfs:label xml:lang="en">InterestingPizza</rdfs:label>
+        <rdfs:label xml:lang="en">Siciliana</rdfs:label>
+        <rdfs:label xml:lang="en">FourCheesesTopping</rdfs:label>
+        <rdfs:label xml:lang="en">OnionTopping</rdfs:label>
+        <rdfs:label xml:lang="en">Cajun</rdfs:label>
+        <rdfs:label xml:lang="en">Spiciness</rdfs:label>
+        <rdfs:label xml:lang="en">SundriedTomatoTopping</rdfs:label>
+        <rdfs:label xml:lang="en">MushroomTopping</rdfs:label>
+        <rdfs:label xml:lang="en">FishTopping</rdfs:label>
         <rdfs:label xml:lang="en">FourSeasons</rdfs:label>
-        <rdfs:label xml:lang="en">SpicyTopping</rdfs:label>
         <rdfs:label xml:lang="en">MixedSeafoodTopping</rdfs:label>
         <rdfs:label xml:lang="en">DeepPanBase</rdfs:label>
         <rdfs:label xml:lang="en">ParmaHamTopping</rdfs:label>
         <rdfs:label xml:lang="en">ThinAndCrispyPizza</rdfs:label>
-        <rdfs:label xml:lang="en">Spiciness</rdfs:label>
-        <rdfs:label xml:lang="en">MushroomTopping</rdfs:label>
-        <rdfs:label xml:lang="en">FishTopping</rdfs:label>
-        <rdfs:label xml:lang="en">SundriedTomatoTopping</rdfs:label>
+        <rdfs:label xml:lang="en">RocketTopping</rdfs:label>
+        <rdfs:label xml:lang="en">FruitTopping</rdfs:label>
+        <rdfs:label xml:lang="en">SpicyTopping</rdfs:label>
+        <rdfs:label xml:lang="en">RedOnionTopping</rdfs:label>
         <rdfs:label xml:lang="en">NonVegetarianPizza</rdfs:label>
         <rdfs:label xml:lang="en">RosemaryTopping</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianPizza</rdfs:label>
         <rdfs:label xml:lang="en">Soho</rdfs:label>
-        <rdfs:label xml:lang="en">SauceTopping</rdfs:label>
-        <rdfs:label xml:lang="en">LaReine</rdfs:label>
-        <rdfs:label xml:lang="en">MozzarellaTopping</rdfs:label>
-        <rdfs:label xml:lang="en">VegetableTopping</rdfs:label>
-        <rdfs:label xml:lang="en">HerbSpiceTopping</rdfs:label>
-        <rdfs:label xml:lang="en">FruitTopping</rdfs:label>
-        <rdfs:label xml:lang="en">RocketTopping</rdfs:label>
         <rdfs:label xml:lang="en">Thing</rdfs:label>
         <rdfs:label xml:lang="en">Mild</rdfs:label>
         <rdfs:label xml:lang="en">CheeseyVegetableTopping</rdfs:label>
-        <rdfs:label xml:lang="en">CaperTopping</rdfs:label>
         <rdfs:label xml:lang="en">Pizza</rdfs:label>
-        <rdfs:label xml:lang="en">RedOnionTopping</rdfs:label>
+        <rdfs:label xml:lang="en">CaperTopping</rdfs:label>
+        <rdfs:label xml:lang="en">Napoletana</rdfs:label>
+        <rdfs:label xml:lang="en">Rosa</rdfs:label>
+        <rdfs:label xml:lang="en">GoatsCheeseTopping</rdfs:label>
+        <rdfs:label xml:lang="en">AnchoviesTopping</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianPizzaEquivalent1</rdfs:label>
         <rdfs:label xml:lang="en">Margherita</rdfs:label>
         <rdfs:label xml:lang="en">SloppyGiuseppe</rdfs:label>
+        <rdfs:label xml:lang="en">SweetPepperTopping</rdfs:label>
+        <rdfs:label xml:lang="en">PineKernels</rdfs:label>
+        <rdfs:label xml:lang="en">Veneziana</rdfs:label>
         <rdfs:label xml:lang="en">IceCream</rdfs:label>
         <rdfs:label xml:lang="en">PepperTopping</rdfs:label>
         <rdfs:label xml:lang="en">ChickenTopping</rdfs:label>
-        <rdfs:label xml:lang="en">PineKernels</rdfs:label>
-        <rdfs:label xml:lang="en">Veneziana</rdfs:label>
-        <rdfs:label xml:lang="en">SweetPepperTopping</rdfs:label>
-        <rdfs:label xml:lang="en">AnchoviesTopping</rdfs:label>
-        <rdfs:label xml:lang="en">SultanaTopping</rdfs:label>
-        <rdfs:label xml:lang="en">FourCheesesTopping</rdfs:label>
-        <rdfs:label xml:lang="en">OnionTopping</rdfs:label>
-        <rdfs:label xml:lang="en">Cajun</rdfs:label>
-        <rdfs:label xml:lang="en">Giardiniera</rdfs:label>
-        <rdfs:label xml:lang="en">AsparagusTopping</rdfs:label>
         <rdfs:label xml:lang="en">VegetarianTopping</rdfs:label>
         <rdfs:label xml:lang="en">ArtichokeTopping</rdfs:label>
+        <rdfs:label xml:lang="en">SultanaTopping</rdfs:label>
+        <rdfs:label xml:lang="en">Giardiniera</rdfs:label>
+        <rdfs:label xml:lang="en">AsparagusTopping</rdfs:label>
+        <rdfs:label xml:lang="en">CheeseyPizza</rdfs:label>
+        <rdfs:label xml:lang="en">QuattroFormaggi</rdfs:label>
+        <rdfs:label xml:lang="en">RealItalianPizza</rdfs:label>
+        <rdfs:label xml:lang="en">Hot</rdfs:label>
+        <rdfs:label xml:lang="en">HotSpicedBeefTopping</rdfs:label>
+        <rdfs:label xml:lang="en">ParmesanTopping</rdfs:label>
+        <rdfs:label xml:lang="en">PeperonataTopping</rdfs:label>
+        <rdfs:label xml:lang="en">ThinAndCrispyBase</rdfs:label>
+        <rdfs:label xml:lang="en">Mushroom</rdfs:label>
+        <rdfs:label xml:lang="en">Capricciosa</rdfs:label>
+        <rdfs:label xml:lang="en">JalapenoPepperTopping</rdfs:label>
+        <rdfs:label xml:lang="en">SpicyPizzaEquivalent</rdfs:label>
+        <rdfs:label xml:lang="en">Parmense</rdfs:label>
+        <rdfs:label xml:lang="en">Medium</rdfs:label>
+        <rdfs:label xml:lang="en">LeekTopping</rdfs:label>
+        <rdfs:label xml:lang="en">GarlicTopping</rdfs:label>
+        <rdfs:label xml:lang="en">ValuePartition</rdfs:label>
+        <rdfs:label xml:lang="en">FruttiDiMare</rdfs:label>
+        <rdfs:label xml:lang="en">NutTopping</rdfs:label>
+        <rdfs:label xml:lang="en">HamTopping</rdfs:label>
+        <rdfs:label xml:lang="en">Food</rdfs:label>
+        <rdfs:label xml:lang="en">Fiorentina</rdfs:label>
+        <rdfs:label xml:lang="en">DomainConcept</rdfs:label>
+        <rdfs:label xml:lang="en">SlicedTomatoTopping</rdfs:label>
+        <rdfs:label xml:lang="en">PrawnsTopping</rdfs:label>
+        <rdfs:label xml:lang="en">CheeseTopping</rdfs:label>
+        <rdfs:label xml:lang="en">TobascoPepperSauce</rdfs:label>
     </rdf:Description>
     
 
