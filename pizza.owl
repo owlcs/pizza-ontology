@@ -263,6 +263,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">American</rdfs:label>
         <rdfs:label xml:lang="pt">Americana</rdfs:label>
+        <skos:altLabel xml:lang="en">American</skos:altLabel>
         <skos:altLabel xml:lang="en">American Pizza</skos:altLabel>
     </owl:Class>
     
@@ -347,6 +348,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">AmericanHot</rdfs:label>
         <rdfs:label xml:lang="pt">AmericanaPicante</rdfs:label>
+        <skos:altLabel xml:lang="en">American Hot</skos:altLabel>
         <skos:altLabel xml:lang="en">American Hot Pizza</skos:altLabel>
     </owl:Class>
     
@@ -498,6 +500,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Cajun</rdfs:label>
         <rdfs:label xml:lang="pt">Cajun</rdfs:label>
+        <skos:altLabel xml:lang="en">Cajun</skos:altLabel>
         <skos:altLabel xml:lang="en">Cajun Pizza</skos:altLabel>
     </owl:Class>
     
@@ -631,6 +634,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Capricciosa</rdfs:label>
         <rdfs:label xml:lang="pt">Capricciosa</rdfs:label>
+        <skos:altLabel xml:lang="en">Capricciosa</skos:altLabel>
         <skos:altLabel xml:lang="en">Capricciosa Pizza</skos:altLabel>
     </owl:Class>
     
@@ -699,6 +703,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Caprina</rdfs:label>
         <rdfs:label xml:lang="pt">Caprina</rdfs:label>
+        <skos:altLabel xml:lang="en">Caprina</skos:altLabel>
         <skos:altLabel xml:lang="en">Caprina Pizza</skos:altLabel>
     </owl:Class>
     
@@ -895,6 +900,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Fiorentina</rdfs:label>
         <rdfs:label xml:lang="pt">Fiorentina</rdfs:label>
+        <skos:altLabel xml:lang="en">Fiorentina</skos:altLabel>
         <skos:altLabel xml:lang="en">Fiorentina Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1033,6 +1039,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">FourSeasons</rdfs:label>
         <rdfs:label xml:lang="pt">QuatroQueijos</rdfs:label>
+        <skos:altLabel xml:lang="en">Four Seasons</skos:altLabel>
         <skos:altLabel xml:lang="en">Four Seasons Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1106,6 +1113,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">FrutosDoMar</rdfs:label>
         <rdfs:label xml:lang="en">FruttiDiMare</rdfs:label>
+        <skos:altLabel xml:lang="en">Frutti Di Mare</skos:altLabel>
         <skos:altLabel xml:lang="en">Frutti Di Mare Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1223,6 +1231,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Giardiniera</rdfs:label>
         <rdfs:label xml:lang="pt">Giardiniera</rdfs:label>
+        <skos:altLabel xml:lang="en">Giardiniera</skos:altLabel>
         <skos:altLabel xml:lang="en">Giardiniera Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1473,6 +1482,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">LaReine</rdfs:label>
         <rdfs:label xml:lang="pt">LaReine</rdfs:label>
+        <skos:altLabel xml:lang="en">La Reine</skos:altLabel>
         <skos:altLabel xml:lang="en">La Reine Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1545,6 +1555,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Margherita</rdfs:label>
         <rdfs:label xml:lang="pt">Margherita</rdfs:label>
+        <skos:altLabel xml:lang="en">Margherita</skos:altLabel>
         <skos:altLabel xml:lang="en">Margherita Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1688,6 +1699,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">Cogumelo</rdfs:label>
         <rdfs:label xml:lang="en">Mushroom</rdfs:label>
+        <skos:altLabel xml:lang="en">Mushroom</skos:altLabel>
         <skos:altLabel xml:lang="en">Mushroom Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1794,6 +1806,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Napoletana</rdfs:label>
         <rdfs:label xml:lang="pt">Napoletana</rdfs:label>
+        <skos:altLabel xml:lang="en">Napoletana</skos:altLabel>
         <skos:altLabel xml:lang="en">Napoletana Pizza</skos:altLabel>
     </owl:Class>
     
@@ -1958,6 +1971,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Parmense</rdfs:label>
         <rdfs:label xml:lang="pt">Parmense</rdfs:label>
+        <skos:altLabel xml:lang="en">Parmese</skos:altLabel>
         <skos:altLabel xml:lang="en">Parmese Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2168,6 +2182,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">PolloAdAstra</rdfs:label>
         <rdfs:label xml:lang="pt">PolloAdAstra</rdfs:label>
+        <skos:altLabel xml:lang="en">Pollo Ad Astra</skos:altLabel>
         <skos:altLabel xml:lang="en">Pollo Ad Astra Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2242,6 +2257,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">CoberturaPrinceCarlo</rdfs:label>
         <rdfs:label xml:lang="en">PrinceCarlo</rdfs:label>
+        <skos:altLabel xml:lang="en">Prince Carlo</skos:altLabel>
         <skos:altLabel xml:lang="en">Prince Carlo Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2284,6 +2300,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="pt">QuatroQueijos</rdfs:label>
         <rdfs:label xml:lang="en">QuattroFormaggi</rdfs:label>
+        <skos:altLabel xml:lang="en">Quattro Formaggi</skos:altLabel>
         <skos:altLabel xml:lang="en">Quattro Formaggi Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2387,6 +2404,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Rosa</rdfs:label>
         <rdfs:label xml:lang="pt">Rosa</rdfs:label>
+        <skos:altLabel xml:lang="en">Rosa</skos:altLabel>
         <skos:altLabel xml:lang="en">Rosa Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2489,6 +2507,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Siciliana</rdfs:label>
         <rdfs:label xml:lang="pt">Siciliana</rdfs:label>
+        <skos:altLabel xml:lang="en">Siciliana</skos:altLabel>
         <skos:altLabel xml:lang="en">Siciliana Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2566,6 +2585,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">SloppyGiuseppe</rdfs:label>
         <rdfs:label xml:lang="pt">SloppyGiuseppe</rdfs:label>
+        <skos:altLabel xml:lang="en">Sloppy Giuseppe</skos:altLabel>
         <skos:altLabel xml:lang="en">Sloppy Giuseppe Pizza</skos:altLabel>
     </owl:Class>
     
@@ -2632,6 +2652,7 @@ This is an example ontology that contains all constructs required for the variou
         <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"/>
         <rdfs:label xml:lang="en">Soho</rdfs:label>
         <rdfs:label xml:lang="pt">Soho</rdfs:label>
+        <skos:altLabel xml:lang="en">Soho</skos:altLabel>
         <skos:altLabel xml:lang="en">Soho Pizza</skos:altLabel>
     </owl:Class>
     
@@ -3079,6 +3100,7 @@ This is an example ontology that contains all constructs required for the variou
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Veneziana</rdfs:label>
         <rdfs:label xml:lang="pt">Veneziana</rdfs:label>
+        <skos:altLabel xml:lang="en">Veneziana</skos:altLabel>
         <skos:altLabel xml:lang="en">Veneziana Pizza</skos:altLabel>
     </owl:Class>
     
