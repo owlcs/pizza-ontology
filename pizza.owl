@@ -10,8 +10,8 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/pizza">
-        <owl:versionIRI rdf:resource="http://www.co-ode.org/ontologies/pizza/2.0.0"/>
+    <owl:Ontology rdf:about="https://rawgit.com/owlcs/pizza-ontology/master/pizza.owl">
+        <owl:versionIRI rdf:resource="https://cdn.rawgit.com/owlcs/pizza-ontology/dc48fca9/pizza.owl"/>
         <dc:title xml:lang="en">pizza</dc:title>
         <terms:contributor>Nick Drummond</terms:contributor>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 3.0 (CC BY 3.0)</terms:license>
